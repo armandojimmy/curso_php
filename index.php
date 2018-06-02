@@ -2,7 +2,7 @@
 
     $urlLang= $_GET["lang"];
     $lang= "\"$urlLang\"";
-    $title="HOLA MUNDO";
+    $title="HOLA MUND  	   O";
     $dictionary  = array(
             "en" => array(
                 "text"=>"text"
