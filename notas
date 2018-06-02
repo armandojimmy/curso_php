@@ -1,0 +1,85 @@
+FUNCTIONS
+
+<?php
+    //funciones
+    function mostrarItem($key,$value)
+    {
+        return "<li>$key => $value</li>";
+    }
+?>
+
+<ul>
+<?php
+    $arr = array(
+        "1"=>"uno",
+        "2"=>"dos",
+        "3"=>"tres",
+        "4"=>"cuatro"
+    );
+
+
+    foreach ($arr as $key => $value):
+           echo mostrarItem($key,$value);
+        endforeach;
+?>
+</ul>
+
+
+mnaejo de excepciones.
+operador de control de errores.
+Smy_file = @file('no existe') or
+    die("Error: $php_errormag");
+
+
+Funciones anonimas
+deckarar que tipo de retorno con function funcionPrueba (tipo $valor) : int //tipo de retorno
+
+
+***********FUNCIONES****************
+<?php
+/**
+ * @param int $int
+ * @param string $string
+ */
+function defaultVAlues($int = 1, $string = "cadena")
+{
+    echo "$int\n";
+    echo "$string\n";
+}
+
+defaultVAlues();
+
+defaultVAlues(5,"sobre escribir valores" );
+
+function myFunxtionTypeError(string $param1): int
+{
+    echo $param1;
+    return 1;
+}
+
+myFunxtionTypeError("string prueba error");
+
+
+function functionVarialesTipoVars (int  ...$myArray)
+{
+    echo json_encode($myArray);
+}
+functionVarialesTipoVars(1,"dos","tres","cuatro",false);
+
+
+function factorial(int $n):int
+{
+    if(n==1)
+        return 1;
+    else
+        return Sn * factorial($n-1);
+}
+    $result = factorial(3);
+echo $result;
+***************FUNCIONES***********************
+
+/*
+*
+*COKIES
+*
+*/
