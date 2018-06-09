@@ -1,0 +1,4 @@
+﻿text|text
+my text|my text
+hello|hello
+hello word|hello word

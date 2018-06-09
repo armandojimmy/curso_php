@@ -1,0 +1,4 @@
+﻿text|texto
+my text|mi texto
+hello|hola
+hello word|hola mundo

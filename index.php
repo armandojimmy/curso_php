@@ -15,6 +15,7 @@
     function traslate(string $text, string $urlLang = "es"): string
     {
         global $dictionary;
+        var_dump($dictionary);
         if(array_key_exists($urlLang,$dictionary))
         {
             if(array_key_exists($text,$dictionary[$urlLang]))
